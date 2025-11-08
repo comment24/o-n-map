@@ -60,6 +60,12 @@ jobs:
         run: |
           python scripts/generate_json.py
 
+      - name: Copy data to docs folder
+        if: steps.check_data.outputs.data_exists == 'true'
+        run: |
+          mkdir -p docs/data
+          cp data/stores.json docs/data/stores.json
+
       - name: Check for changes
         id: check_changes
         run: |
@@ -70,7 +76,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/stores.json data/metadata.json
+          git add data/stores.json data/metadata.json docs/data/stores.json
           git commit -m "chore: update store data - $(date +'%Y-%m-%d')"
           git push
 

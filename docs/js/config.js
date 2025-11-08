@@ -4,7 +4,7 @@ const CONFIG = {
     KAKAO_JAVASCRIPT_KEY: 'd6d7f886f9a0726d9948aae19b1f1296',
 
     // 데이터 파일 경로
-    DATA_URL: '../data/stores.json',
+    DATA_URL: 'data/stores.json',
 
     // 기본 지도 설정
     DEFAULT_CENTER: {
