@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="온누리 상품권 사용 가능 가맹점을 위치 기반으로 빠르게 찾아보세요">
+    <title>온누리 상품권 사용처 지도</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>온누리 상품권 사용처 찾기</h1>
+
+            <div class="controls">
+                <!-- Location Controls -->
+                <div class="location-controls">
+                    <button id="currentLocationBtn" class="btn btn-primary">
+                        📍 현재 위치
+                    </button>
+                    <input
+                        type="text"
+                        id="addressInput"
+                        placeholder="주소, 역명, 동네 검색..."
+                        class="input-search"
+                    >
+                </div>
+
+                <!-- Filter Controls -->
+                <div class="filter-controls">
+                    <div class="radius-group">
+                        <label>반경:</label>
+                        <label class="radio-label">
+                            <input type="radio" name="radius" value="1000" checked>
+                            1km
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="radius" value="3000">
+                            3km
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="radius" value="5000">
+                            5km
+                        </label>
+                    </div>
+
+                    <div class="category-group">
+                        <label for="categorySelect">업종:</label>
+                        <select id="categorySelect" class="select">
+                            <option value="all">전체</option>
+                            <option value="음식점">음식점</option>
+                            <option value="식료품">식료품</option>
+                            <option value="주유소">주유소</option>
+                            <option value="기타">기타</option>
+                        </select>
+                    </div>
+
+                    <div class="type-group">
+                        <label>
+                            <input type="checkbox" name="type" value="card" checked>
+                            충전식
+                        </label>
+                        <label>
+                            <input type="checkbox" name="type" value="paper" checked>
+                            지류
+                        </label>
+                        <label>
+                            <input type="checkbox" name="type" value="mobile" checked>
+                            모바일
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-bar">
+                <span id="storeCount">가맹점: 0개</span>
+                <span id="lastUpdated">업데이트: -</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Store List -->
+            <aside class="store-list">
+                <div class="list-header">
+                    <h2>주변 가맹점</h2>
+                    <span id="filteredCount">0개</span>
+                </div>
+                <div id="storeListContainer" class="list-container">
+                    <div class="loading">위치를 선택해주세요</div>
+                </div>
+            </aside>
+
+            <!-- Map Container -->
+            <div class="map-container">
+                <div id="map" class="map"></div>
+                <div id="mapLoading" class="map-loading">
+                    지도를 불러오는 중...
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Store Detail Dialog -->
+    <dialog id="storeDialog" class="store-dialog">
+        <div class="dialog-header">
+            <h3 id="dialogStoreName"></h3>
+            <button id="dialogCloseBtn" class="btn-close">✕</button>
+        </div>
+        <div class="dialog-body">
+            <p class="dialog-distance">📏 <span id="dialogDistance"></span></p>
+            <p class="dialog-address">📍 <span id="dialogAddress"></span></p>
+            <p class="dialog-category">🏷️ <span id="dialogCategory"></span></p>
+            <p class="dialog-types">💳 <span id="dialogTypes"></span></p>
+            <p class="dialog-phone" style="display:none;">📞 <span id="dialogPhone"></span></p>
+        </div>
+        <div class="dialog-actions">
+            <a id="dialogNaverBtn" href="#" target="_blank" class="btn btn-primary btn-large">
+                네이버에서 리뷰·사진 보기
+            </a>
+            <div class="action-buttons">
+                <a id="dialogPhoneBtn" href="#" class="btn btn-secondary" style="display:none;">
+                    📞 전화
+                </a>
+                <a id="dialogDirectionsBtn" href="#" target="_blank" class="btn btn-secondary">
+                    🗺️ 길찾기
+                </a>
+            </div>
+        </div>
+    </dialog>
+
+    <!-- Kakao Map SDK -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=YOUR_JAVASCRIPT_KEY&libraries=services,clusterer"></script>
+
+    <!-- App Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

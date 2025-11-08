@@ -1,0 +1,12 @@
+# Data processing
+pandas==2.1.4
+openpyxl==3.1.2
+
+# HTTP requests
+requests==2.31.0
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Excel file handling
+xlrd==2.0.1
