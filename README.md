@@ -29,7 +29,7 @@ git clone https://github.com/comment24/o-n-map.git
 cd o-n-map
 
 # 로컬 서버 실행
-cd public
+cd docs
 python -m http.server 8000
 ```
 
@@ -58,15 +58,17 @@ echo "KAKAO_REST_API_KEY=your_rest_api_key" > .env
 
 ```
 o-n-map/
-├── public/              # 프론트엔드 (GitHub Pages로 배포)
+├── docs/                # 프론트엔드 (GitHub Pages로 배포)
 │   ├── index.html
 │   ├── css/styles.css
-│   └── js/
-│       ├── config.js    # 설정 (API 키 포함)
-│       ├── utils.js     # 유틸리티 함수
-│       ├── map.js       # 카카오맵 제어
-│       ├── filter.js    # 위치 기반 필터링
-│       └── app.js       # 메인 로직
+│   ├── js/
+│   │   ├── config.js    # 설정 (API 키 포함)
+│   │   ├── utils.js     # 유틸리티 함수
+│   │   ├── map.js       # 카카오맵 제어
+│   │   ├── filter.js    # 위치 기반 필터링
+│   │   └── app.js       # 메인 로직
+│   └── data/
+│       └── stores.json  # 가맹점 데이터 (프론트엔드용)
 │
 ├── scripts/             # 데이터 수집 스크립트
 │   ├── fetch_data.py    # 공공데이터 다운로드
@@ -75,7 +77,7 @@ o-n-map/
 │   └── run_all.sh       # 전체 프로세스 실행
 │
 ├── data/
-│   ├── stores.json      # 가맹점 데이터 (프론트엔드용)
+│   ├── stores.json      # 가맹점 데이터 (원본)
 │   └── metadata.json    # 통계 정보
 │
 ├── .github/workflows/
@@ -124,7 +126,7 @@ GitHub Pages로 자동 배포:
 
 1. Repository Settings > Pages
 2. Source: Deploy from a branch
-3. Branch: `main` (또는 현재 브랜치), Folder: `/public`
+3. Branch: `main` (또는 현재 브랜치), Folder: `/docs`
 4. Save
 
 배포 URL: `https://comment24.github.io/o-n-map/`
