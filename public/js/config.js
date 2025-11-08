@@ -1,8 +1,7 @@
 // 카카오맵 API 키 설정
 const CONFIG = {
-    // 카카오 JavaScript 키를 여기에 입력하세요
-    // https://developers.kakao.com 에서 발급받으세요
-    KAKAO_JAVASCRIPT_KEY: 'YOUR_JAVASCRIPT_KEY',
+    // 카카오 JavaScript 키
+    KAKAO_JAVASCRIPT_KEY: 'd6d7f886f9a0726d9948aae19b1f1296',
 
     // 데이터 파일 경로
     DATA_URL: '../data/stores.json',

@@ -1,0 +1,84 @@
+name: Update Onnuri Store Data
+
+on:
+  # 매주 일요일 오전 3시 (KST 기준 12시)에 실행
+  schedule:
+    - cron: '0 3 * * 0'
+
+  # 수동 실행 가능
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Create data directories
+        run: |
+          mkdir -p data/raw
+          mkdir -p data
+
+      - name: Fetch Onnuri store data
+        run: |
+          python scripts/fetch_data.py
+        continue-on-error: true
+        # 수동 다운로드가 필요할 수 있으므로 에러 시 계속 진행
+
+      - name: Check if data file exists
+        id: check_data
+        run: |
+          if ls data/raw/*.{xlsx,xls,csv} 1> /dev/null 2>&1; then
+            echo "data_exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "data_exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Geocode addresses
+        if: steps.check_data.outputs.data_exists == 'true'
+        env:
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+        run: |
+          python scripts/geocode.py
+
+      - name: Generate JSON files
+        if: steps.check_data.outputs.data_exists == 'true'
+        run: |
+          python scripts/generate_json.py
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet data/stores.json || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/stores.json data/metadata.json
+          git commit -m "chore: update store data - $(date +'%Y-%m-%d')"
+          git push
+
+      - name: Upload artifacts (on failure)
+        if: failure()
+        uses: actions/upload-artifact@v3
+        with:
+          name: logs
+          path: |
+            data/raw/*.csv
+            data/raw/*.log
