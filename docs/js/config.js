@@ -3,8 +3,8 @@ const CONFIG = {
     // 카카오 JavaScript 키
     KAKAO_JAVASCRIPT_KEY: 'd6d7f886f9a0726d9948aae19b1f1296',
 
-    // 데이터 파일 경로
-    DATA_URL: 'data/stores.json',
+    // 데이터 파일 경로 (캐시 무효화를 위한 버전 파라미터 추가)
+    DATA_URL: 'data/stores.json?v=20251109-2',
 
     // 기본 지도 설정
     DEFAULT_CENTER: {
