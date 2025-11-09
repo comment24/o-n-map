@@ -1,126 +1,1389 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-11-08T00:00:00Z",
-  "totalStores": 10,
+  "lastUpdated": "2025-11-09T20:19:05.656713Z",
+  "totalStores": 80,
+  "region": "서울 샘플",
   "stores": [
     {
       "id": 1,
-      "name": "맛있는 한식당",
-      "address": "서울특별시 강남구 테헤란로 152",
-      "roadAddress": "서울특별시 강남구 테헤란로 152",
-      "market": "역삼전통시장",
-      "category": "음식점",
-      "subCategory": "한식",
-      "types": ["card", "paper"],
-      "lat": 37.5012,
-      "lng": 127.0396,
-      "phone": "02-1234-5678",
-      "naverUrl": "https://map.naver.com/v5/search/맛있는%20한식당%20역삼"
+      "name": "서린뮤직",
+      "address": "서울 종로구 낙원동 252",
+      "lat": 37.57270182445578,
+      "lng": 126.9880914164131,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 종로구 삼일대로 428",
+      "market": "낙원악기상가",
+      "products": "악기",
+      "naverUrl": "https://map.naver.com/v5/search/서린뮤직%20서울%20종로구%20낙원동%20252"
     },
     {
       "id": 2,
-      "name": "신선마트",
-      "address": "서울특별시 강남구 역삼동 825-20",
-      "roadAddress": "서울특별시 강남구 언주로 428",
-      "category": "식료품",
-      "subCategory": "슈퍼마켓",
-      "types": ["card", "paper", "mobile"],
-      "lat": 37.4979,
-      "lng": 127.0376,
-      "phone": "02-2345-6789"
+      "name": "미술냉삼",
+      "address": "서울 중구 인현동2가 100",
+      "lat": 37.5640987275303,
+      "lng": 126.995391047953,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 중구 마른내로 68",
+      "market": "인현시장 상점가",
+      "subCategory": "한식",
+      "products": "한식",
+      "naverUrl": "https://map.naver.com/v5/search/미술냉삼%20서울%20중구%20인현동2가%20100"
     },
     {
       "id": 3,
-      "name": "커피향기",
-      "address": "서울특별시 강남구 역삼동 736-20",
-      "roadAddress": "서울특별시 강남구 테헤란로 156",
-      "category": "음식점",
-      "subCategory": "카페",
-      "types": ["card"],
-      "lat": 37.5015,
-      "lng": 127.0405,
-      "phone": "02-3456-7890"
+      "name": "장수상회",
+      "address": "서울 중랑구 상봉동 129-9",
+      "lat": 37.5926935010985,
+      "lng": 127.077426488867,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 중랑구 망우로32길 23",
+      "market": "중랑교종합상가",
+      "products": "참기름 들기름 고추가루",
+      "naverUrl": "https://map.naver.com/v5/search/장수상회%20서울%20중랑구%20상봉동%20129-9"
     },
     {
       "id": 4,
-      "name": "GS주유소 역삼점",
-      "address": "서울특별시 강남구 역삼동 678-10",
-      "roadAddress": "서울특별시 강남구 강남대로 396",
-      "category": "주유소",
-      "types": ["card"],
-      "lat": 37.4965,
-      "lng": 127.0288
+      "name": "숯불구이전문점 낭만",
+      "address": "서울 도봉구 창동 10",
+      "lat": 37.6528239872181,
+      "lng": 127.049976815794,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 도봉구 노해로69길 15-15",
+      "market": "창동역 상점가",
+      "subCategory": "한식",
+      "products": "돼지갈비",
+      "naverUrl": "https://map.naver.com/v5/search/숯불구이전문점%20낭만%20서울%20도봉구%20창동%2010"
     },
     {
       "id": 5,
-      "name": "봉평메밀국수",
-      "address": "서울특별시 강남구 논현동 91-5",
-      "roadAddress": "서울특별시 강남구 강남대로 406",
-      "category": "음식점",
-      "subCategory": "한식",
-      "types": ["card", "paper"],
-      "lat": 37.5021,
-      "lng": 127.0250,
-      "phone": "02-4567-8901"
+      "name": "한올한올",
+      "address": "서울 동작구 본동 190-8",
+      "lat": 37.5118498129448,
+      "lng": 126.951621662521,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 동작구 매봉로 165",
+      "market": "본동 인정시장",
+      "products": "피부미용",
+      "naverUrl": "https://map.naver.com/v5/search/한올한올%20서울%20동작구%20본동%20190-8"
     },
     {
       "id": 6,
-      "name": "편의점24",
-      "address": "서울특별시 강남구 역삼동 823-15",
-      "roadAddress": "서울특별시 강남구 언주로 430",
-      "category": "식료품",
-      "subCategory": "편의점",
-      "types": ["card", "mobile"],
-      "lat": 37.4985,
-      "lng": 127.0382
+      "name": "떡의 작품",
+      "address": "서울 영등포구 양평동4가 73-1",
+      "lat": 37.53699724544335,
+      "lng": 126.89532348384904,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 영등포구 양평로 107-1",
+      "market": "강서구청먹자골목골목형상점가",
+      "products": "분식",
+      "naverUrl": "https://map.naver.com/v5/search/떡의%20작품%20서울%20영등포구%20양평동4가%2073-1"
     },
     {
       "id": 7,
-      "name": "이탈리아 레스토랑",
-      "address": "서울특별시 강남구 논현동 235-8",
-      "roadAddress": "서울특별시 강남구 학동로 426",
+      "name": "오아카롱",
+      "address": "서울 강동구 명일동 325-17",
+      "lat": 37.5501826345729,
+      "lng": 127.144629865594,
       "category": "음식점",
-      "subCategory": "양식",
-      "types": ["card"],
-      "lat": 37.5033,
-      "lng": 127.0295,
-      "phone": "02-5678-9012"
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강동구 상암로47길 84",
+      "market": "명일전통시장",
+      "products": "마카롱 및 디저트",
+      "naverUrl": "https://map.naver.com/v5/search/오아카롱%20서울%20강동구%20명일동%20325-17"
     },
     {
       "id": 8,
-      "name": "프레시마트",
-      "address": "서울특별시 강남구 역삼동 679-3",
-      "roadAddress": "서울특별시 강남구 테헤란로 140",
-      "market": "역삼전통시장",
-      "category": "식료품",
-      "subCategory": "슈퍼마켓",
-      "types": ["card", "paper", "mobile"],
-      "lat": 37.4998,
-      "lng": 127.0350,
-      "phone": "02-6789-0123"
+      "name": "벨루가사진관",
+      "address": "서울 동작구 사당동 132-20",
+      "lat": 37.48778421683646,
+      "lng": 126.98104926632732,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 동작구 동작대로27길 16-5",
+      "market": "남성사계시장",
+      "products": "사진",
+      "naverUrl": "https://map.naver.com/v5/search/벨루가사진관%20서울%20동작구%20사당동%20132-20"
     },
     {
       "id": 9,
-      "name": "중국집 명가",
-      "address": "서울특별시 강남구 역삼동 735-10",
-      "roadAddress": "서울특별시 강남구 테헤란로 145",
-      "category": "음식점",
-      "subCategory": "중식",
-      "types": ["card", "paper"],
-      "lat": 37.5005,
-      "lng": 127.0415,
-      "phone": "02-7890-1234"
+      "name": "경창떡방아간",
+      "address": "서울 양천구 신월동 463-11",
+      "lat": 37.52497551008719,
+      "lng": 126.84346805258684,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 양천구 중앙로53길 56",
+      "market": "경창시장",
+      "products": "떡",
+      "naverUrl": "https://map.naver.com/v5/search/경창떡방아간%20서울%20양천구%20신월동%20463-11"
     },
     {
       "id": 10,
-      "name": "일본라멘",
-      "address": "서울특별시 강남구 논현동 168-5",
-      "roadAddress": "서울특별시 강남구 강남대로 410",
+      "name": "이공커피 목동깨비시장점",
+      "address": "서울 양천구 목동 618-1",
+      "lat": 37.548064012491,
+      "lng": 126.866527485366,
       "category": "음식점",
-      "subCategory": "일식",
-      "types": ["card"],
-      "lat": 37.5028,
-      "lng": 127.0268
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 양천구 목동중앙북로 28",
+      "market": "목동깨비시장(구 목3동시장)",
+      "subCategory": "카페",
+      "products": "커피",
+      "naverUrl": "https://map.naver.com/v5/search/이공커피%20목동깨비시장점%20서울%20양천구%20목동%20618-1"
+    },
+    {
+      "id": 11,
+      "name": "보배곱창 ",
+      "address": "서울 도봉구 쌍문동 668-18",
+      "lat": 37.6554180953453,
+      "lng": 127.037315628858,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 도봉구 도봉로129길 20",
+      "market": "성동용답상가시장",
+      "subCategory": "한식",
+      "products": "곱창",
+      "naverUrl": "https://map.naver.com/v5/search/보배곱창%20%20서울%20도봉구%20쌍문동%20668-18"
+    },
+    {
+      "id": 12,
+      "name": "어부세꼬시",
+      "address": "서울 관악구 신림동 1652",
+      "lat": 37.4826864587942,
+      "lng": 126.904849143824,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 관악구 조원로6길 15",
+      "market": "강남골목시장",
+      "subCategory": "한식",
+      "products": "회 해산물",
+      "naverUrl": "https://map.naver.com/v5/search/어부세꼬시%20서울%20관악구%20신림동%201652"
+    },
+    {
+      "id": 13,
+      "name": "더클래스골프스튜디오",
+      "address": "서울 송파구 가락동 75-9",
+      "lat": 37.4970287561743,
+      "lng": 127.119837431562,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 송파구 양재대로62길 33",
+      "market": "가락골 골목형상점가",
+      "products": "골프연습장",
+      "naverUrl": "https://map.naver.com/v5/search/더클래스골프스튜디오%20서울%20송파구%20가락동%2075-9"
+    },
+    {
+      "id": 14,
+      "name": "커피스튜디오엘 ",
+      "address": "서울 송파구 가락동 87",
+      "lat": 37.497129205102574,
+      "lng": 127.11940560650574,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 송파구 중대로9길 50",
+      "market": "가락골 골목형상점가",
+      "subCategory": "카페",
+      "products": "음료",
+      "naverUrl": "https://map.naver.com/v5/search/커피스튜디오엘%20%20서울%20송파구%20가락동%2087"
+    },
+    {
+      "id": 15,
+      "name": "대도 함흥냉면",
+      "address": "서울 마포구 용강동 21",
+      "lat": 37.54140416853653,
+      "lng": 126.94475234376416,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 마포구 토정로37길 21-9",
+      "market": "용강동상점가",
+      "subCategory": "한식",
+      "products": "냉면탕찜",
+      "naverUrl": "https://map.naver.com/v5/search/대도%20함흥냉면%20서울%20마포구%20용강동%2021"
+    },
+    {
+      "id": 16,
+      "name": "베이글집",
+      "address": "서울 영등포구 양평동3가 69",
+      "lat": 37.529312702162,
+      "lng": 126.89341094862932,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 영등포구 선유로 176",
+      "market": "문정동로데오상점가",
+      "products": "베이글",
+      "naverUrl": "https://map.naver.com/v5/search/베이글집%20서울%20영등포구%20양평동3가%2069"
+    },
+    {
+      "id": 17,
+      "name": "정한컴",
+      "address": "서울 성북구 석관동 127-67",
+      "lat": 37.6121196436462,
+      "lng": 127.064082043272,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 성북구 한천로78길 33",
+      "market": "석계음식문화거리골목형상점가",
+      "products": "컴퓨터및 주변기기",
+      "naverUrl": "https://map.naver.com/v5/search/정한컴%20서울%20성북구%20석관동%20127-67"
+    },
+    {
+      "id": 18,
+      "name": "안국온누리약국 ",
+      "address": "서울 강북구 수유동 178-25",
+      "lat": 37.64127946319102,
+      "lng": 127.02523267567592,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강북구 한천로 1058",
+      "market": "백년시장(구 강북종합전통시장)",
+      "products": "양약",
+      "naverUrl": "https://map.naver.com/v5/search/안국온누리약국%20%20서울%20강북구%20수유동%20178-25"
+    },
+    {
+      "id": 19,
+      "name": "바라요가",
+      "address": "서울 성북구 하월곡동 18-49",
+      "lat": 37.60401414569175,
+      "lng": 127.04258649377208,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 성북구 화랑로13길 14",
+      "market": "월곡달빛오거리골목형상점가",
+      "products": "요가수업",
+      "naverUrl": "https://map.naver.com/v5/search/바라요가%20서울%20성북구%20하월곡동%2018-49"
+    },
+    {
+      "id": 20,
+      "name": "코코헤어스케치",
+      "address": "서울 동대문구 장안동 116-27",
+      "lat": 37.577107735094,
+      "lng": 127.069359129447,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 동대문구 답십리로63길 102",
+      "market": "전곡시장골목형상점가",
+      "products": "미용",
+      "naverUrl": "https://map.naver.com/v5/search/코코헤어스케치%20서울%20동대문구%20장안동%20116-27"
+    },
+    {
+      "id": 21,
+      "name": "우진축산",
+      "address": "서울 동대문구 장안동 118-38",
+      "lat": 37.5774894345614,
+      "lng": 127.068366660822,
+      "category": "식료품",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 동대문구 한천로 186",
+      "market": "전곡시장골목형상점가",
+      "products": "육류",
+      "naverUrl": "https://map.naver.com/v5/search/우진축산%20서울%20동대문구%20장안동%20118-38"
+    },
+    {
+      "id": 22,
+      "name": "김이랑밥이랑",
+      "address": "서울 강동구 천호동 382-21",
+      "lat": 37.542917428444,
+      "lng": 127.128674647458,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강동구 천중로16길 45",
+      "market": "전곡시장골목형상점가",
+      "products": "한식",
+      "naverUrl": "https://map.naver.com/v5/search/김이랑밥이랑%20서울%20강동구%20천호동%20382-21"
+    },
+    {
+      "id": 23,
+      "name": "떡이랑한과랑",
+      "address": "서울 성동구 성수동1가 13-104",
+      "lat": 37.5489134530643,
+      "lng": 127.048264222468,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 성동구 상원8길 1",
+      "market": "전곡시장골목형상점가",
+      "products": "떡",
+      "naverUrl": "https://map.naver.com/v5/search/떡이랑한과랑%20서울%20성동구%20성수동1가%2013-104"
+    },
+    {
+      "id": 24,
+      "name": "양의원",
+      "address": "서울 성동구 성수동2가 289-236",
+      "lat": 37.5468166139597,
+      "lng": 127.054941591292,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 성동구 아차산로7길 20",
+      "market": "성수역골목형상점가",
+      "products": "의원",
+      "naverUrl": "https://map.naver.com/v5/search/양의원%20서울%20성동구%20성수동2가%20289-236"
+    },
+    {
+      "id": 25,
+      "name": "루디아이불",
+      "address": "서울 종로구 종로6가 49",
+      "lat": 37.5720093067959,
+      "lng": 127.007730319809,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 종로구 종로43길 15",
+      "market": "전곡시장골목형상점가",
+      "products": "이불",
+      "naverUrl": "https://map.naver.com/v5/search/루디아이불%20서울%20종로구%20종로6가%2049"
+    },
+    {
+      "id": 26,
+      "name": "강가네 ",
+      "address": "서울 용산구 한남동 641-9",
+      "lat": 37.53250697293833,
+      "lng": 127.00545102189244,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 용산구 대사관로24길 27",
+      "market": "암사종합시장",
+      "products": "침구류",
+      "naverUrl": "https://map.naver.com/v5/search/강가네%20%20서울%20용산구%20한남동%20641-9"
+    },
+    {
+      "id": 27,
+      "name": "대형물산",
+      "address": "서울 영등포구 당산동1가 158-17",
+      "lat": 37.52157607469967,
+      "lng": 126.90097285771417,
+      "category": "식료품",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 영등포구 영신로39길 2",
+      "market": "영등포청과시장",
+      "products": "청과",
+      "naverUrl": "https://map.naver.com/v5/search/대형물산%20서울%20영등포구%20당산동1가%20158-17"
+    },
+    {
+      "id": 28,
+      "name": "더좋은고기드림",
+      "address": "서울 도봉구 도봉동 574-27",
+      "lat": 37.6850248595958,
+      "lng": 127.043563535693,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 도봉구 도봉산3길 54",
+      "market": "도봉산옛길골목형상점가",
+      "products": "육류",
+      "naverUrl": "https://map.naver.com/v5/search/더좋은고기드림%20서울%20도봉구%20도봉동%20574-27"
+    },
+    {
+      "id": 29,
+      "name": "암사본정형외과의원",
+      "address": "서울 강동구 암사동 500-23",
+      "lat": 37.55142603798556,
+      "lng": 127.12905819899436,
+      "category": "기타",
+      "types": [
+        "paper"
+      ],
+      "roadAddress": "서울 강동구 올림픽로98길 15",
+      "market": "암사종합시장",
+      "products": "의료업",
+      "naverUrl": "https://map.naver.com/v5/search/암사본정형외과의원%20서울%20강동구%20암사동%20500-23"
+    },
+    {
+      "id": 30,
+      "name": "유풍상회",
+      "address": "서울 중구 남창동 32-51",
+      "lat": 37.5600971864557,
+      "lng": 126.977694408554,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 중구 남대문시장4길 3",
+      "market": "남대문시장",
+      "products": "잡화",
+      "naverUrl": "https://map.naver.com/v5/search/유풍상회%20서울%20중구%20남창동%2032-51"
+    },
+    {
+      "id": 31,
+      "name": "봉평골메밀막국수",
+      "address": "서울 성동구 행당동 192-29",
+      "lat": 37.5648976730744,
+      "lng": 127.036796173773,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 성동구 고산자로 284",
+      "market": "전곡시장골목형상점가",
+      "subCategory": "한식",
+      "products": "막국수",
+      "naverUrl": "https://map.naver.com/v5/search/봉평골메밀막국수%20서울%20성동구%20행당동%20192-29"
+    },
+    {
+      "id": 32,
+      "name": "옷이날개",
+      "address": "서울 강서구 방화동 612-231",
+      "lat": 37.56402443778019,
+      "lng": 126.81007342377532,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강서구 방화동로5길 11",
+      "market": "전곡시장골목형상점가",
+      "products": "의류",
+      "naverUrl": "https://map.naver.com/v5/search/옷이날개%20서울%20강서구%20방화동%20612-231"
+    },
+    {
+      "id": 33,
+      "name": "커피상점",
+      "address": "서울 강서구 등촌동 642",
+      "lat": 37.5560817759582,
+      "lng": 126.85785309394146,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강서구 화곡로66길 90",
+      "market": "전곡시장골목형상점가",
+      "subCategory": "카페",
+      "products": "카페",
+      "naverUrl": "https://map.naver.com/v5/search/커피상점%20서울%20강서구%20등촌동%20642"
+    },
+    {
+      "id": 34,
+      "name": "원피스 당구 클럽",
+      "address": "서울 동대문구 장안동 109-10",
+      "lat": 37.5775404930857,
+      "lng": 127.068879534162,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 동대문구 한천로40길 11",
+      "market": "전곡시장골목형상점가",
+      "products": "당구장",
+      "naverUrl": "https://map.naver.com/v5/search/원피스%20당구%20클럽%20서울%20동대문구%20장안동%20109-10"
+    },
+    {
+      "id": 35,
+      "name": "거북이분식",
+      "address": "서울 관악구 신림동 667-17",
+      "lat": 37.4632674999372,
+      "lng": 126.918814270189,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 관악구 난곡로 87",
+      "market": "성내전통시장",
+      "products": "한식",
+      "naverUrl": "https://map.naver.com/v5/search/거북이분식%20서울%20관악구%20신림동%20667-17"
+    },
+    {
+      "id": 36,
+      "name": "유한회사 은하상회",
+      "address": "서울 성동구 금호동2가 501-63",
+      "lat": 37.5521410994541,
+      "lng": 127.018724836648,
+      "category": "식료품",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 성동구 금호산9가길 41",
+      "market": "가락몰골목형상점가",
+      "subCategory": "슈퍼마켓",
+      "products": "청과",
+      "naverUrl": "https://map.naver.com/v5/search/유한회사%20은하상회%20서울%20성동구%20금호동2가%20501-63"
+    },
+    {
+      "id": 37,
+      "name": "가정식백반",
+      "address": "서울 서초구 양재동 6-25",
+      "lat": 37.4814416549235,
+      "lng": 127.041502667934,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 서초구 논현로31길 30",
+      "market": "전곡시장골목형상점가",
+      "subCategory": "한식",
+      "products": "분식",
+      "naverUrl": "https://map.naver.com/v5/search/가정식백반%20서울%20서초구%20양재동%206-25"
+    },
+    {
+      "id": 38,
+      "name": "전곡상회",
+      "address": "경기 파주시 적성면 어유지리 75-27",
+      "lat": 37.9935959312545,
+      "lng": 126.99220401604,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "경기 파주시 적성면 어삼로 15",
+      "market": "전곡시장골목형상점가",
+      "products": "참기름 참깨 고추 가공식품",
+      "naverUrl": "https://map.naver.com/v5/search/전곡상회%20경기%20파주시%20적성면%20어유지리%2075-27"
+    },
+    {
+      "id": 39,
+      "name": "큰손감자탕",
+      "address": "서울 강동구 성내동 440-14",
+      "lat": 37.523760118987,
+      "lng": 127.13375500631,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강동구 양재대로89가길 66",
+      "market": "충정로56출구 골목형상점가",
+      "subCategory": "한식",
+      "products": "한식",
+      "naverUrl": "https://map.naver.com/v5/search/큰손감자탕%20서울%20강동구%20성내동%20440-14"
+    },
+    {
+      "id": 40,
+      "name": "일오삼반찬가게",
+      "address": "서울 동대문구 장안동 117-23",
+      "lat": 37.577334158272336,
+      "lng": 127.06889179680728,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 동대문구 한천로38다길 29",
+      "market": "전곡시장골목형상점가",
+      "products": "한식",
+      "naverUrl": "https://map.naver.com/v5/search/일오삼반찬가게%20서울%20동대문구%20장안동%20117-23"
+    },
+    {
+      "id": 41,
+      "name": "조은식당",
+      "address": "서울 성동구 홍익동 416",
+      "lat": 37.5668672093032,
+      "lng": 127.030629385191,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 성동구 마장로 187-2",
+      "market": "전곡시장골목형상점가",
+      "subCategory": "한식",
+      "products": "한식",
+      "naverUrl": "https://map.naver.com/v5/search/조은식당%20서울%20성동구%20홍익동%20416"
+    },
+    {
+      "id": 42,
+      "name": "충북상회",
+      "address": "서울 동대문구 제기동 993-17",
+      "lat": 37.5794288414228,
+      "lng": 127.039818096426,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 동대문구 왕산로29길 16",
+      "market": "경동시장",
+      "products": "농산물",
+      "naverUrl": "https://map.naver.com/v5/search/충북상회%20서울%20동대문구%20제기동%20993-17"
+    },
+    {
+      "id": 43,
+      "name": "에픽피자",
+      "address": "서울 강동구 고덕동 191-2",
+      "lat": 37.5585991855029,
+      "lng": 127.168811901972,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강동구 고덕로83길 34",
+      "market": "고덕골목형상점가",
+      "subCategory": "양식",
+      "products": "피자파스타",
+      "naverUrl": "https://map.naver.com/v5/search/에픽피자%20서울%20강동구%20고덕동%20191-2"
+    },
+    {
+      "id": 44,
+      "name": "신혼주단",
+      "address": "서울 강서구 내발산동 720-20",
+      "lat": 37.549233953010834,
+      "lng": 126.83546418179422,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강서구 강서로45나길 27",
+      "market": "송화벽화시장",
+      "products": "한복지",
+      "naverUrl": "https://map.naver.com/v5/search/신혼주단%20서울%20강서구%20내발산동%20720-20"
+    },
+    {
+      "id": 45,
+      "name": "시장통닭 (호프)",
+      "address": "서울 중구 황학동 441",
+      "lat": 37.56725154984103,
+      "lng": 127.0197677137911,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 중구 퇴계로85길 34",
+      "market": "신중앙시장",
+      "products": "치킨",
+      "naverUrl": "https://map.naver.com/v5/search/시장통닭%20(호프)%20서울%20중구%20황학동%20441"
+    },
+    {
+      "id": 46,
+      "name": "고기다 성수점",
+      "address": "서울 성동구 성수동2가 289-15",
+      "lat": 37.5457319816208,
+      "lng": 127.054574161216,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 성동구 성수일로8길 37",
+      "market": "성수역골목형상점가",
+      "subCategory": "한식",
+      "products": "한식한우한돈",
+      "naverUrl": "https://map.naver.com/v5/search/고기다%20성수점%20서울%20성동구%20성수동2가%20289-15"
+    },
+    {
+      "id": 47,
+      "name": "초이스튜디오",
+      "address": "서울 성동구 행당동 286-34",
+      "lat": 37.56147218365391,
+      "lng": 127.03343410162776,
+      "category": "기타",
+      "types": [
+        "paper"
+      ],
+      "roadAddress": "서울 성동구 왕십리로21길 9",
+      "market": "행당시장상점가",
+      "products": "사진 촬영",
+      "naverUrl": "https://map.naver.com/v5/search/초이스튜디오%20서울%20성동구%20행당동%20286-34"
+    },
+    {
+      "id": 48,
+      "name": "대우유리액자",
+      "address": "서울 강서구 화곡동 777-11",
+      "lat": 37.5331512987388,
+      "lng": 126.862363376034,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강서구 등촌로5길 21",
+      "market": "남부골목시장",
+      "products": "유리",
+      "naverUrl": "https://map.naver.com/v5/search/대우유리액자%20서울%20강서구%20화곡동%20777-11"
+    },
+    {
+      "id": 49,
+      "name": "후루룩분식후루룩분식",
+      "address": "서울 영등포구 신길동 95-62",
+      "lat": 37.5138303961933,
+      "lng": 126.919032127303,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 영등포구 영등포로 370",
+      "market": "샛강두리골목형상점가",
+      "products": "분식",
+      "naverUrl": "https://map.naver.com/v5/search/후루룩분식후루룩분식%20서울%20영등포구%20신길동%2095-62"
+    },
+    {
+      "id": 50,
+      "name": "친절정육점",
+      "address": "서울 관악구 신림동 242-19",
+      "lat": 37.46885775361356,
+      "lng": 126.9389026895656,
+      "category": "식료품",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 관악구 신림로11길 35",
+      "market": "방신전통시장",
+      "products": "소고기 돼지고기",
+      "naverUrl": "https://map.naver.com/v5/search/친절정육점%20서울%20관악구%20신림동%20242-19"
+    },
+    {
+      "id": 51,
+      "name": "명한의원",
+      "address": "서울 강북구 수유동 287",
+      "lat": 37.644765236548686,
+      "lng": 127.0155969471244,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강북구 삼양로123길 1",
+      "market": "성대전통시장",
+      "products": "한방치료",
+      "naverUrl": "https://map.naver.com/v5/search/명한의원%20서울%20강북구%20수유동%20287"
+    },
+    {
+      "id": 52,
+      "name": "설악추어탕",
+      "address": "서울 도봉구 쌍문동 516-3",
+      "lat": 37.658212470389,
+      "lng": 127.015109044479,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 도봉구 삼양로162길 21",
+      "market": "아현시장",
+      "subCategory": "한식",
+      "products": "한식",
+      "naverUrl": "https://map.naver.com/v5/search/설악추어탕%20서울%20도봉구%20쌍문동%20516-3"
+    },
+    {
+      "id": 53,
+      "name": "웰빙김밥",
+      "address": "서울 중구 중림동 397-2",
+      "lat": 37.5589549252512,
+      "lng": 126.963935619368,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 중구 중림로 2-1",
+      "market": "충정로56출구 골목형상점가",
+      "products": "한식",
+      "naverUrl": "https://map.naver.com/v5/search/웰빙김밥%20서울%20중구%20중림동%20397-2"
+    },
+    {
+      "id": 54,
+      "name": "지지고(GGGO)",
+      "address": "서울 성동구 행당동 26-6",
+      "lat": 37.557831454062175,
+      "lng": 127.04134128070837,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 성동구 왕십리로 236",
+      "market": "숭실마루길골목형상점가",
+      "products": "분식",
+      "naverUrl": "https://map.naver.com/v5/search/지지고(GGGO)%20서울%20성동구%20행당동%2026-6"
+    },
+    {
+      "id": 55,
+      "name": "숭실길약국",
+      "address": "서울 동작구 상도동 505-6",
+      "lat": 37.49515252689131,
+      "lng": 126.95664424281676,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 동작구 사당로 20",
+      "market": "숭실마루길골목형상점가",
+      "products": "약국",
+      "naverUrl": "https://map.naver.com/v5/search/숭실길약국%20서울%20동작구%20상도동%20505-6"
+    },
+    {
+      "id": 56,
+      "name": "헤어살롱 진경",
+      "address": "서울 강서구 등촌동 641-11",
+      "lat": 37.5568632706809,
+      "lng": 126.855895938398,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강서구 공항대로45길 44",
+      "market": "가양역사거리골목형상점가",
+      "products": "미용",
+      "naverUrl": "https://map.naver.com/v5/search/헤어살롱%20진경%20서울%20강서구%20등촌동%20641-11"
+    },
+    {
+      "id": 57,
+      "name": "밀플랜비",
+      "address": "서울 송파구 송파동 193-12",
+      "lat": 37.5006821348109,
+      "lng": 127.112717432013,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 송파구 송파대로36길 7-42",
+      "market": "숭실마루길골목형상점가",
+      "subCategory": "양식",
+      "products": "양식",
+      "naverUrl": "https://map.naver.com/v5/search/밀플랜비%20서울%20송파구%20송파동%20193-12"
+    },
+    {
+      "id": 58,
+      "name": "파톰디저트스튜디오",
+      "address": "서울 강서구 등촌동 655-28",
+      "lat": 37.5558435762134,
+      "lng": 126.854616773842,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강서구 공항대로45길 12",
+      "market": "가양역사거리골목형상점가",
+      "subCategory": "카페",
+      "products": "디저트 음료",
+      "naverUrl": "https://map.naver.com/v5/search/파톰디저트스튜디오%20서울%20강서구%20등촌동%20655-28"
+    },
+    {
+      "id": 59,
+      "name": "글라스타",
+      "address": "서울 금천구 시흥동 987-12",
+      "lat": 37.4487632747207,
+      "lng": 126.902492872937,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 금천구 시흥대로 167",
+      "market": "숭실마루길골목형상점가",
+      "products": "안경",
+      "naverUrl": "https://map.naver.com/v5/search/글라스타%20서울%20금천구%20시흥동%20987-12"
+    },
+    {
+      "id": 60,
+      "name": "태양수제 돼지갈비",
+      "address": "서울 강서구 등촌동 655-34",
+      "lat": 37.5556814027434,
+      "lng": 126.854621615846,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강서구 공항대로45길 8-3",
+      "market": "가양역사거리골목형상점가",
+      "subCategory": "한식",
+      "products": "돼지갈비",
+      "naverUrl": "https://map.naver.com/v5/search/태양수제%20돼지갈비%20서울%20강서구%20등촌동%20655-34"
+    },
+    {
+      "id": 61,
+      "name": "모구모구과자점(신당)",
+      "address": "서울 중구 흥인동 30-1",
+      "lat": 37.5659400692146,
+      "lng": 127.017422086391,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 중구 퇴계로81길 7-11",
+      "market": "서울중앙시장",
+      "products": "카페 베이커리",
+      "naverUrl": "https://map.naver.com/v5/search/모구모구과자점(신당)%20서울%20중구%20흥인동%2030-1"
+    },
+    {
+      "id": 62,
+      "name": "연세두리치과",
+      "address": "서울 강서구 등촌동 641-11",
+      "lat": 37.5568109079864,
+      "lng": 126.855810025984,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강서구 공항대로45길 44",
+      "market": "가양역사거리골목형상점가",
+      "products": "치과",
+      "naverUrl": "https://map.naver.com/v5/search/연세두리치과%20서울%20강서구%20등촌동%20641-11"
+    },
+    {
+      "id": 63,
+      "name": "선경한의원",
+      "address": "서울 강남구 역삼동 756-18",
+      "lat": 37.4976051755995,
+      "lng": 127.052015039233,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강남구 선릉로 313",
+      "market": "도곡시장",
+      "products": "의료",
+      "naverUrl": "https://map.naver.com/v5/search/선경한의원%20서울%20강남구%20역삼동%20756-18"
+    },
+    {
+      "id": 64,
+      "name": "신당동즉석떡볶이",
+      "address": "서울 강서구 등촌동 655-37",
+      "lat": 37.55558381640523,
+      "lng": 126.8543954584812,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강서구 공항대로 423",
+      "market": "가양역사거리골목형상점가",
+      "products": "떡볶이",
+      "naverUrl": "https://map.naver.com/v5/search/신당동즉석떡볶이%20서울%20강서구%20등촌동%20655-37"
+    },
+    {
+      "id": 65,
+      "name": "토니모리중랑점",
+      "address": "서울 중랑구 상봉동 129-11",
+      "lat": 37.59348423604291,
+      "lng": 127.07655995933104,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 중랑구 망우로32길 7",
+      "market": "중랑동부시장",
+      "products": "화장품",
+      "naverUrl": "https://map.naver.com/v5/search/토니모리중랑점%20서울%20중랑구%20상봉동%20129-11"
+    },
+    {
+      "id": 66,
+      "name": "밥맛나",
+      "address": "서울 강서구 화곡동 340-47",
+      "lat": 37.53348603577079,
+      "lng": 126.84595971360108,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강서구 강서로 64",
+      "market": "까치산시장",
+      "products": "김밥",
+      "naverUrl": "https://map.naver.com/v5/search/밥맛나%20서울%20강서구%20화곡동%20340-47"
+    },
+    {
+      "id": 67,
+      "name": "스타일1013",
+      "address": "서울 중랑구 신내동 666",
+      "lat": 37.606493047819,
+      "lng": 127.094754545119,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 중랑구 봉화산로 194",
+      "market": "신아타운",
+      "products": "의류잡화",
+      "naverUrl": "https://map.naver.com/v5/search/스타일1013%20서울%20중랑구%20신내동%20666"
+    },
+    {
+      "id": 68,
+      "name": "생선굽찌",
+      "address": "서울 강서구 등촌동 655-37",
+      "lat": 37.55556396101705,
+      "lng": 126.85436833548847,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강서구 공항대로 423",
+      "market": "가양역사거리골목형상점가",
+      "subCategory": "한식",
+      "products": "한식",
+      "naverUrl": "https://map.naver.com/v5/search/생선굽찌%20서울%20강서구%20등촌동%20655-37"
+    },
+    {
+      "id": 69,
+      "name": "더헤어 감동",
+      "address": "서울 강서구 등촌동 656-57",
+      "lat": 37.55574175953392,
+      "lng": 126.85388360600945,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강서구 공항대로 417",
+      "market": "가양역사거리골목형상점가",
+      "products": "미용",
+      "naverUrl": "https://map.naver.com/v5/search/더헤어%20감동%20서울%20강서구%20등촌동%20656-57"
+    },
+    {
+      "id": 70,
+      "name": "김학동 치과의원",
+      "address": "서울 도봉구 도봉동 566",
+      "lat": 37.6841065314335,
+      "lng": 127.044186525598,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 도봉구 도봉로181길 29",
+      "market": "도봉산옛길골목형상점가",
+      "products": "치과",
+      "naverUrl": "https://map.naver.com/v5/search/김학동%20치과의원%20서울%20도봉구%20도봉동%20566"
+    },
+    {
+      "id": 71,
+      "name": "공릉동 닭한마리 등촌점",
+      "address": "서울 강서구 등촌동 655-1",
+      "lat": 37.5563489118947,
+      "lng": 126.85524957001442,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강서구 공항대로45길 28",
+      "market": "가양역사거리골목형상점가",
+      "subCategory": "한식",
+      "products": "닭백숙",
+      "naverUrl": "https://map.naver.com/v5/search/공릉동%20닭한마리%20등촌점%20서울%20강서구%20등촌동%20655-1"
+    },
+    {
+      "id": 72,
+      "name": "강순자옛맛김치찌개 강서구청점",
+      "address": "서울 강서구 등촌동 655-32",
+      "lat": 37.5555698910803,
+      "lng": 126.854793856118,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강서구 공항대로45길 8-7",
+      "market": "가양역사거리골목형상점가",
+      "subCategory": "한식",
+      "products": "김치찌개",
+      "naverUrl": "https://map.naver.com/v5/search/강순자옛맛김치찌개%20강서구청점%20서울%20강서구%20등촌동%20655-32"
+    },
+    {
+      "id": 73,
+      "name": "원조왕족발",
+      "address": "서울 도봉구 도봉동 565-1",
+      "lat": 37.683882717909,
+      "lng": 127.045165894099,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 도봉구 도봉로181길 13",
+      "market": "도봉산옛길골목형상점가",
+      "subCategory": "한식",
+      "products": "한식",
+      "naverUrl": "https://map.naver.com/v5/search/원조왕족발%20서울%20도봉구%20도봉동%20565-1"
+    },
+    {
+      "id": 74,
+      "name": "우리당구클럽",
+      "address": "서울 동대문구 제기동 650",
+      "lat": 37.57989577747411,
+      "lng": 127.0417848088202,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 동대문구 왕산로33길 13",
+      "market": "대명여울빛거리시장",
+      "products": "당구장",
+      "naverUrl": "https://map.naver.com/v5/search/우리당구클럽%20서울%20동대문구%20제기동%20650"
+    },
+    {
+      "id": 75,
+      "name": "신발나라",
+      "address": "서울 양천구 신월동 114-22",
+      "lat": 37.5326601276868,
+      "lng": 126.836147752393,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 양천구 곰달래로13길 32",
+      "market": "흑석시장골목형상점가",
+      "products": "신발",
+      "naverUrl": "https://map.naver.com/v5/search/신발나라%20서울%20양천구%20신월동%20114-22"
+    },
+    {
+      "id": 76,
+      "name": "한우마을",
+      "address": "서울 강동구 둔촌동 436-4",
+      "lat": 37.5327716085515,
+      "lng": 127.138722060614,
+      "category": "음식점",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 강동구 양재대로 1422",
+      "market": "흑석시장골목형상점가",
+      "subCategory": "한식",
+      "products": "한우",
+      "naverUrl": "https://map.naver.com/v5/search/한우마을%20서울%20강동구%20둔촌동%20436-4"
+    },
+    {
+      "id": 77,
+      "name": "GS25건대수정점",
+      "address": "서울 광진구 화양동 11-1",
+      "lat": 37.542800445937,
+      "lng": 127.070934124694,
+      "category": "식료품",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 광진구 능동로13길 15",
+      "market": "건리단길 골목형상점가",
+      "subCategory": "편의점",
+      "products": "소매",
+      "naverUrl": "https://map.naver.com/v5/search/GS25건대수정점%20서울%20광진구%20화양동%2011-1"
+    },
+    {
+      "id": 78,
+      "name": "영신상회",
+      "address": "서울 영등포구 영등포동6가 146-1",
+      "lat": 37.5227814186474,
+      "lng": 126.902905684267,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 영등포구 영등포로33길 25",
+      "market": "대명여울빛거리시장",
+      "products": "양장",
+      "naverUrl": "https://map.naver.com/v5/search/영신상회%20서울%20영등포구%20영등포동6가%20146-1"
+    },
+    {
+      "id": 79,
+      "name": "채터박스잉글리쉬학원",
+      "address": "서울 동작구 흑석동 52-8",
+      "lat": 37.5073346206301,
+      "lng": 126.963432287156,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 동작구 서달로14나길 19",
+      "market": "흑석시장골목형상점가",
+      "products": "영어교육",
+      "naverUrl": "https://map.naver.com/v5/search/채터박스잉글리쉬학원%20서울%20동작구%20흑석동%2052-8"
+    },
+    {
+      "id": 80,
+      "name": "(주)대평코리아",
+      "address": "서울 광진구 자양동 611-4",
+      "lat": 37.534630408588,
+      "lng": 127.076343618408,
+      "category": "기타",
+      "types": [
+        "paper",
+        "card",
+        "mobile"
+      ],
+      "roadAddress": "서울 광진구 자양번영로 56-1",
+      "market": "노룬산골목시장",
+      "products": "오리",
+      "naverUrl": "https://map.naver.com/v5/search/(주)대평코리아%20서울%20광진구%20자양동%20611-4"
     }
   ]
 }

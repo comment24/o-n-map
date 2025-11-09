@@ -1,0 +1,13 @@
+{
+  "lastUpdated": "2025-11-09T20:19:05.657821Z",
+  "dataSource": "공공데이터포털 - 온누리상품권 가맹점 (서울 샘플 100개)",
+  "totalStores": 80,
+  "geocodingSuccess": 80,
+  "geocodingRate": 80.0,
+  "categories": {
+    "기타": 38,
+    "음식점": 37,
+    "식료품": 5
+  },
+  "region": "서울"
+}
