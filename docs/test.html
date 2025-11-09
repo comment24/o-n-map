@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>데이터 로드 테스트</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .result {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        pre {
+            background: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>온누리 상품권 지도 - 데이터 로드 테스트</h1>
+
+    <div id="results"></div>
+
+    <script>
+        const results = document.getElementById('results');
+
+        function addResult(title, content, isSuccess = true) {
+            const div = document.createElement('div');
+            div.className = `result ${isSuccess ? 'success' : 'error'}`;
+            div.innerHTML = `<h3>${title}</h3>${content}`;
+            results.appendChild(div);
+        }
+
+        // 1. config.js 로드 확인
+        try {
+            if (typeof CONFIG !== 'undefined') {
+                addResult('✅ config.js 로드', `<pre>${JSON.stringify(CONFIG, null, 2)}</pre>`);
+            } else {
+                addResult('❌ config.js 로드 실패', 'CONFIG 객체를 찾을 수 없습니다.', false);
+            }
+        } catch (e) {
+            addResult('❌ config.js 에러', e.message, false);
+        }
+
+        // 2. stores.json 로드 확인
+        fetch('data/stores.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                addResult('✅ stores.json 로드 성공', `
+                    <p>총 가맹점: ${data.totalStores}개</p>
+                    <p>버전: ${data.version}</p>
+                    <p>업데이트: ${data.lastUpdated}</p>
+                    <p>지역: ${data.region}</p>
+                    <p>첫 번째 가맹점:</p>
+                    <pre>${JSON.stringify(data.stores[0], null, 2)}</pre>
+                `);
+            })
+            .catch(error => {
+                addResult('❌ stores.json 로드 실패', `
+                    <p>에러: ${error.message}</p>
+                    <p>경로: data/stores.json</p>
+                `, false);
+            });
+
+        // 3. 카카오맵 SDK 확인
+        setTimeout(() => {
+            try {
+                if (typeof kakao !== 'undefined' && kakao.maps) {
+                    addResult('✅ 카카오맵 SDK 로드', `
+                        <p>kakao.maps 객체 사용 가능</p>
+                    `);
+                } else {
+                    addResult('❌ 카카오맵 SDK 로드 실패', 'kakao.maps를 찾을 수 없습니다.', false);
+                }
+            } catch (e) {
+                addResult('❌ 카카오맵 SDK 에러', e.message, false);
+            }
+        }, 1000);
+
+        // 4. 브라우저 정보
+        addResult('ℹ️ 브라우저 정보', `
+            <p>User Agent: ${navigator.userAgent}</p>
+            <p>현재 URL: ${window.location.href}</p>
+            <p>HTTPS: ${window.location.protocol === 'https:' ? '예' : '아니오'}</p>
+        `);
+    </script>
+
+    <!-- config.js 로드 -->
+    <script src="js/config.js"></script>
+
+    <!-- 카카오맵 SDK -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d6d7f886f9a0726d9948aae19b1f1296&libraries=services,clusterer"></script>
+</body>
+</html>
